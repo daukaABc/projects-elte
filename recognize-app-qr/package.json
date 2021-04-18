@@ -1,0 +1,17 @@
+{
+    "name": "Recognize",
+    "description": "Recognize Node package for tests",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "aws-sdk": "^2.422.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "mocha": "5.0.0",
+        "unit.js": "2.0.0"
+    },
+    "scripts": {
+        "test": "mocha --recursive tests"
+    }
+}
