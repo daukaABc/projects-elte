@@ -1,0 +1,27 @@
+.hbox, .sizeHBox {
+	-fx-padding: 15px;
+	-fx-spacing: 20px;
+}
+
+.hbox .label {
+	-fx-padding: 20px 0px;
+	-fx-font-size: 12pt;
+}
+
+.sizeHBox .button {
+	-fx-pref-width: 100px;
+	-fx-pref-height: 35px;
+}
+
+.tableButton {
+	-fx-pref-height: 100px;
+	-fx-pref-width: 100px;
+}
+
+#currently {
+	-fx-background-color: orange;
+}
+
+#visited {
+	-fx-background-color: purple;
+}

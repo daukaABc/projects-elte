@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KnightController">
+	<top>
+	<BorderPane>
+		<center>
+		 	<HBox styleClass="hbox" >
+		 		<children>
+		 			<HBox fx:id="sizeHBox" styleClass="sizeHBox" />
+		 			<Label text = "Steps: " />
+		 			<Label fx:id="stepsLabel" />
+		 		</children>
+		 	</HBox>
+		</center>
+	</BorderPane>
+	</top>
+	<center>
+		<GridPane fx:id="buttonsPane" />
+	</center>
+</BorderPane>

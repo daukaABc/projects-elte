@@ -1,0 +1,26 @@
+.root {
+	-fx-background-color: lightgrey;
+	-fx-font-family: "Comic Sans MS";
+}
+.hbox {
+	-fx-padding: 2.0px;
+	-fx-alignment: center;
+}
+
+.hbox1 {
+	-fx-padding: 12.0px;
+	-fx-alignment: center;
+}
+
+.hbox .label {
+	-fx-font-size: 9.0pt;
+}
+
+.hbox1 .label {
+	-fx-font-size: 15.0pt;
+}
+
+.buttons {
+	-fx-pref-height: 100.0px;
+	-fx-pref-width: 100.0px;
+}
