@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+	
+<BorderPane styleClass="mainPane" xmlns:fx="http://javafx.com/fxml/1" >
+	<top>
+		<TextField fx:id="resultField" />
+	</top>
+	<center>
+		<BorderPane>
+			<left>
+				<BorderPane>
+					<top>
+						<GridPane fx:id="numbersPane" styleClass="buttonPane" />
+					</top>
+					<center>
+						<Button text="0" styleClass="zeroButton" />
+					</center>
+				</BorderPane>
+			</left>
+			<right>
+				<BorderPane>
+					<top>
+						<GridPane styleClass="buttonPane">
+							<children>
+								<Button fx:id="mulButton" text="*" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+								<Button fx:id="divButton" text="/" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+								<Button fx:id="plusButton" text="+" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+								<Button fx:id="minusButton" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+							</children>
+						</GridPane>
+					</top>
+					<center>
+						<Button fx:id="equalsButton" text="=" styleClass="equalsButton" />
+					</center>
+				</BorderPane>
+			</right>
+		</BorderPane>
+	</center>
+</BorderPane>
